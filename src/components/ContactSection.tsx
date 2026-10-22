@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+React, { useState } from 'react';
 import { Mail, PhoneCall, Send, MessageSquare, CheckCircle, Clock, MapPin, Sparkles } from 'lucide-react';
-import { STUDIO_INFO, SERVICES } from '../data/contentData';
+import {  STUDIO_INFO, SERVICES } from '../data/contentData';
 
 interface ContactSectionProps {
   initialService?: string;
@@ -14,7 +14,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialService }
     service: initialService || 'Website Development',
     budget: '$1,000 - $3,000',
     message: ''
-  });
+  });import
 
   const [submitted, setSubmitted] = useState(false);
 
